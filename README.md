@@ -57,6 +57,7 @@ The Critical Path Method (CPM) is a project modeling technique used to identify 
 Execute the Python script from the terminal:
 ```bash
 python CPM.py
+```
 
 The script will print the activity analysis to the console and display the project network diagram.
 
