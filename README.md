@@ -24,7 +24,6 @@ The Critical Path Method (CPM) is a project modeling technique used to identify 
     *   `LS_i = LF_i - Duration_i`
 3.  **Total Float (TF):**
     *   `TF_i = LS_i - ES_i = LF_i - EF_i`
-    *   TF_i=LS_i-ES_i=LF_i-EF_i
 4.  **Drag:**
     *   Drag is the amount of time that an activity on the critical path adds to the project duration.
     *   `Drag_i = Project Duration - New Project Duration (if activity i's duration is reduced to zero)`
@@ -58,7 +57,6 @@ Execute the Python script from the terminal:
 ```bash
 python CPM.py
 ```
-
 The script will print the activity analysis to the console and display the project network diagram.
 
 ## Sample Project Data
@@ -101,8 +99,8 @@ Project Duration: 15.0 days
 
 ## Project Network Diagram:
 
-![alt text](cpm-network-diagram.png)
+![CPM Network Diagram showing critical path in red](cpm-network-diagram.png)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
